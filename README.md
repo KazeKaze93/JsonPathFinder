@@ -19,10 +19,47 @@
 - Kivy 2.3.0
 - PyInstaller (для сборки исполняемых файлов)
 
-## Установка зависимостей
+## Генерация исполняемого файла
 
 Установите зависимости с помощью `pip`:
 
 ```bash
 pip install -r requirements.txt
+
+```
+Для создания исполняемого файла и запуска приложения выполните следующие команды в терминале:
+```bash
+pyinstaller --onefile --windowed main.py
+```
+Исполняемый файл сгенерируется в папке dist
+
+### Запуск через bash-скрипт
+
+1. **Для Windows**:
+   - Убедитесь, что у вас установлен [Git Bash](https://gitforwindows.org/) или [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install).
+   
+   - Если вы используете Git Bash, просто запустите:
+
+     ```bash
+     sh run.sh
+     ```
+
+   - Если вы используете WSL, откройте терминал WSL и выполните ту же команду:
+
+     ```bash
+     sh run.sh
+     ```
+
+2. **Для macOS и Linux**:
+   - Убедитесь, что скрипт `run.sh` имеет права на выполнение:
+
+     ```bash
+     chmod +x run.sh
+     ```
+
+   - Запустите скрипт:
+
+     ```bash
+     sh run.sh
+     ```
 
