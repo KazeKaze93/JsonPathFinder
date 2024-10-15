@@ -62,4 +62,3 @@ pyinstaller --onefile --windowed main.py
      ```bash
      sh run.sh
      ```
-
