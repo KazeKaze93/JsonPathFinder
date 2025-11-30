@@ -1,0 +1,2 @@
+[console_scripts]
+jpf = json_path_finder.cli:main

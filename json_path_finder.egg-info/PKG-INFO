@@ -1,3 +1,15 @@
+Metadata-Version: 2.4
+Name: json-path-finder
+Version: 1.0.0
+Summary: A robust utility to find paths to keys or values in complex JSON structures.
+Author-email: KazeKaze93 <your.email@example.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+
 ![Python CI](https://github.com/KazeKaze93/JsonPathFinder/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
